@@ -1,0 +1,314 @@
+@import url('https://fonts.cdnfonts.com/css/amazon-ember');
+
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+   
+    font-family: 'Amazon Ember', sans-serif;
+
+}
+body{
+    font-family: Amazon Ember, Amazon Arabic Ember, Arial, sans-serif !important;
+}
+.NavigationBar{
+    background-color: #00050d;
+    max-width: 1519.2px;
+    display: flex;
+    height: 48px;
+    padding-left: 250px;
+    padding-right: 200px;
+    }
+
+.section{
+    display: flex;
+    height: 48px;
+    align-items: center;
+}
+.section1{
+    width: 160px;
+    padding-left: 23px;
+}
+.section3{
+    margin-left: 60px;
+}
+.NaviImage{
+    width: 104px;
+    height: 19.5px;
+    
+}
+nav{
+     display: flex;
+    height: 48px;
+}
+    
+.menu{
+    display: flex;
+    
+}
+.options{
+    display: flex;
+    font-size: 20px;
+    color: #aaa;
+    padding-left: 10px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    align-items: center;
+    
+    font-weight: 500;
+    cursor: pointer;
+    list-style-type:none;
+
+    
+
+}
+
+
+.nav-link,.DropDown li{
+
+    cursor: pointer;
+    list-style-type:none;
+    
+    box-sizing: border-box;
+    
+    
+    }
+a{
+    text-decoration: none;
+    color: #aaa ;
+   
+}
+.DropDown{
+    position: absolute;
+    
+    background:rgb(20, 18, 18)  ;
+    margin: 0;
+    padding:20px;
+    color: #aaa ;
+    font-size: 20px;
+    display: none;
+    line-height: 40px;
+    
+   
+}
+
+.options:hover{
+    background-color:rgb(20, 18, 18) ;
+    color: white;
+
+
+}
+
+.options a:hover{
+    color: white;
+}
+.services:hover .DropDown{
+    display:block ;
+}
+.services .dropdown-icon {
+    font-size: 20px;
+    position: relative;
+    right: -5px;
+    transform: rotate(0deg);
+    transition: 0.3s ease-in-out all;
+}
+.services:hover .dropdown-icon {
+    transform: rotate(180deg);
+}
+.search{
+    width: 62px;
+}
+
+#searchicon{
+    width: auto;
+    height: 25px;
+    
+}
+#ProIcon{
+    height: 40px;
+}
+
+
+
+
+
+
+
+.row{
+    
+    color:#ffff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 652px;
+    padding: 20px;
+    box-sizing: content-box;
+    
+    
+    }
+.row1{
+        background-image: linear-gradient(to right, #000 40%, transparent 58%),url(https://m.media-amazon.com/images/G/31/AmazonVideo/2019/MLP.jpg);
+       } 
+.row2{ 
+    background-image: linear-gradient(to right, #000 40%, transparent 58%), url(Images/CenterCombained__image.jpg); 
+     } 
+.row3{
+    background-color: #ffff;
+    color: #000; 
+}         
+
+.subject{
+        width:621px;
+        height: 300px;
+        padding: 20px;
+        
+    }
+
+.subject_title{
+        font-weight: 400;
+        font-size: 2.5rem;
+        line-height: 2.8rem;
+        }
+.subject__description{
+        font-weight: 400;
+        font-size: 1.3rem;
+        line-height: 1.6rem;
+        padding-top: 20px;
+        
+    }
+.buttonDiv{
+        padding-top: 40px;
+    }
+.button{
+        background-color: #0F79AF;
+        color:#ffff;
+        border:none;
+        height: 48px;
+        width: 280px;
+        border-radius: 3px;
+        font-weight: bold;
+        font-size: 17px;
+        cursor:pointer;
+        text-align: center;
+        line-height: 20px;
+    }
+
+.row3{
+        height: auto;
+        display: flex;
+        padding-top: 9px;
+        padding-bottom: 9px;
+        padding-left: 75px;
+        padding-right: 67px;
+    }
+
+.content{
+        margin: 0;
+        width: 50%;
+        display: flex;
+        
+    }
+
+.subjecttitleDiv3{
+    margin-right: 100px;
+    margin-top: 25px;
+}
+
+.subject_title3{
+        font-size: 2.8rem;
+        line-height: 3.1rem;
+        font-weight: 400;
+        color: #000;
+    }
+.subjectdescriptionDiv3{
+            display: flex;
+            margin-top: 30px;
+            margin-right: 90px;
+    }
+.subject__description3{
+            color: #000;
+            font-size: 1.5rem;
+            line-height: 1.6rem;
+            font-weight: 400;
+    }
+.Channels{
+        width:50%;
+        display: flex;
+        
+    }
+
+    
+.Channel_list{
+            width: 100%;  
+            
+            
+        }
+.Channel{    
+                width: 32%;
+                margin: 3px;
+                height: 154px;
+                float: left;
+    }
+.Channel img{
+        
+         width: 100%;
+         height: 100%;
+         transition: opacity 10s ease-in-out;
+                     
+     }
+.Channel img:hover{
+                    
+         box-shadow: 1px 1px 15px rgba(0,0,0,1),-1px 0 15px rgba(0,0,0,1);
+    }
+
+
+    .footer{
+    
+        width: 100%;
+        background-color: #222222;
+        height: 110px;
+
+        padding-top: 25px;
+        
+       
+    }
+    
+    .footer_image{
+    
+      display: flex;
+      margin-left: auto;
+      margin-right: auto;
+      
+      
+      
+      
+    }
+    .experiance_choice{
+       
+      margin: 5px;
+      padding-left: 10px;
+    }
+    .experiance_choice a{
+        color: #79b8f3;
+        font-size: 1rem;
+        margin: 8px;
+        text-decoration: none;
+        font-weight: 300;
+        }
+    .experiance_choice{
+        text-align: center;
+        margin: 10px;
+    }
+    .lastLine{
+        color:#8197a4 ;
+        text-align: center;
+        font-size:1rem;
+    }
+    .experiance_choice a:hover{
+        color: #90dffe;;
+    }
+
+       
+
+
+
